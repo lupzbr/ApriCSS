@@ -19,7 +19,7 @@ public class TesteTCC {
             letra += linha;
         }
         
-        letra = letra.replaceAll("\\sx{2,}",""); 
+        letra = letra.replaceAll("\\s+",""); 
         System.out.println(letra);
         
         writer.write(letra);
